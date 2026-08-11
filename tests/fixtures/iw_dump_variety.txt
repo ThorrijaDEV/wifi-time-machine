@@ -1,0 +1,82 @@
+BSS 11:22:33:44:55:01(on wlan0) -- associated
+	last seen: 100.000s [boottime]
+	TSF: 1234567890123 usec (14d, 06:56:10)
+	freq: 2437.0
+	beacon interval: 100 TUs
+	capability: ESS Privacy ShortSlotTime (0x0411)
+	signal: -55.00 dBm
+	last seen: 100 ms ago
+	SSID: OPEN-COFFEE
+	Supported rates: 1.0* 2.0* 5.5* 11.0* 9.0 18.0 36.0 54.0 
+	DS Parameter set: channel 6
+	Extended supported rates: 6.0 12.0 24.0 48.0 
+	TIM: DTIM Count 0 DTIM Period 1 Bitmap Control 0x0 Bitmap[0] 0x0
+BSS 11:22:33:44:55:02(on wlan0)
+	last seen: 200.000s [boottime]
+	TSF: 1234567890123 usec (14d, 06:56:10)
+	freq: 5220.0
+	beacon interval: 100 TUs
+	capability: ESS Privacy (0x0411)
+	signal: -62.00 dBm
+	last seen: 200 ms ago
+	SSID: MODERN-SAE
+	Supported rates: 6.0* 9.0 12.0* 18.0 24.0* 36.0 48.0 54.0 
+	DS Parameter set: channel 44
+	RSN:	 * Version: 1
+		 * Group cipher: CCMP
+		 * Pairwise ciphers: CCMP
+		 * Authentication suites: SAE
+		 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)
+BSS 11:22:33:44:55:03(on wlan0)
+	last seen: 300.000s [boottime]
+	TSF: 1234567890123 usec (14d, 06:56:10)
+	freq: 2462.0
+	beacon interval: 100 TUs
+	capability: ESS Privacy (0x0411)
+	signal: -70.00 dBm
+	last seen: 300 ms ago
+	SSID: LEGACY-SHOP
+	Supported rates: 1.0* 2.0* 5.5* 11.0* 9.0 18.0 36.0 54.0 
+	DS Parameter set: channel 11
+	WPA:	 * Version: 1
+		 * Group cipher: TKIP
+		 * Pairwise ciphers: TKIP
+		 * Authentication suites: PSK
+BSS 11:22:33:44:55:04(on wlan0)
+	last seen: 400.000s [boottime]
+	TSF: 1234567890123 usec (14d, 06:56:10)
+	freq: 2407.0
+	beacon interval: 100 TUs
+	capability: ESS Privacy (0x0411)
+	signal: -65.00 dBm
+	last seen: 400 ms ago
+	SSID: MIXED-MODE
+	DS Parameter set: channel 3
+	RSN:	 * Version: 1
+		 * Group cipher: CCMP
+		 * Pairwise ciphers: CCMP
+		 * Authentication suites: SAE PSK
+		 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)
+BSS 11:22:33:44:55:05(on wlan0)
+	last seen: 500.000s [boottime]
+	TSF: 1234567890123 usec (14d, 06:56:10)
+	freq: 6115.0
+	beacon interval: 100 TUs
+	capability: ESS Privacy (0x0411)
+	signal: -88.00 dBm
+	last seen: 500 ms ago
+	SSID: SIX-GHZ-NET
+	RSN:	 * Version: 1
+		 * Group cipher: GCMP
+		 * Pairwise ciphers: GCMP
+		 * Authentication suites: OWE
+BSS 11:22:33:44:55:06(on wlan0)
+	last seen: 600.000s [boottime]
+	TSF: 1234567890123 usec (14d, 06:56:10)
+	freq: 2412.0
+	beacon interval: 100 TUs
+	capability: ESS (0x0401)
+	signal: -48.00 dBm
+	last seen: 600 ms ago
+	Supported rates: 1.0* 2.0* 5.5* 11.0* 9.0 18.0 36.0 54.0 
+	DS Parameter set: channel 1

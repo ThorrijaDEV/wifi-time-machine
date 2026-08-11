@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifi-time-machine"
+version = "0.1.0"
+description = "A historical time machine for your local Wi-Fi environment"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rubén N." }]
+keywords = ["wifi", "wireless", "sqlite", "network", "linux", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.scripts]
+wtm = "wtm.cli:main"
+
+[tool.setuptools]
+packages = ["wtm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
